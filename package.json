@@ -1,0 +1,32 @@
+{
+  "name": "lyrios-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelcodes23/Lyrios-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelcodes23/Lyrios-backend/issues"
+  },
+  "homepage": "https://github.com/michaelcodes23/Lyrios-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.12.15",
+    "morgan": "^1.10.0",
+    "react-router": "^5.2.0"
+  }
+}
